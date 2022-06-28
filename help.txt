@@ -1,0 +1,31 @@
+IMPORTING AND EXPORTING PAGE TO ANOTHER JS PAGE
+
+Export the function from file A , e.g. export function sum() {} .
+Import the function in file B as import {sum} from './another-file. js' .
+Use the imported function in file B .
+
+ADDING WINDOWS.ONLOAD OR AN EVENT HANDLER
+
+window.addEventListener('load', (event) => {
+    console.log('The page has fully loaded');
+});
+Code language: JavaScript (javascript)
+Or use the onload property of the window object:
+
+window.onload = (event) => {
+    console.log('The page has fully loaded');
+};
+
+REDIRECTING TO ANOTHER WITHOUT CLICKING WITHIN THE PAGE
+
+<head>
+<meta http-equiv = "refresh" content = "3; url = https://www.qries.com" />
+</head>
+
+<head>
+  <meta http-equiv='refresh' content='0; URL=http://example.com/'>
+</head>
+
+OPTION FOR REDIRECT THAT DOESNT BREAK THE BACK BUTTON
+
+https://www.w3.org/QA/Tips/reback

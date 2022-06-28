@@ -1,0 +1,11 @@
+{
+  "name": "gaffinefarms",
+  "version": "1.0.0",
+  "description": "An all JS website built with template literals",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Andrew Maurer",
+  "license": "ISC"
+}
