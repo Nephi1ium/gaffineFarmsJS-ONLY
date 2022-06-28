@@ -1,8 +1,8 @@
-import {deployHeader} from "./headerComponent.js";
+// import {deployHeader} from "./headerComponent.js";
 
-// const indexExecution = document.querySelector("#homeButton");
+// // const indexExecution = document.querySelector("#homeButton");
 
-// indexExecution.addEventListener("click", deployHeader());
+// // indexExecution.addEventListener("click", deployHeader());
 
 
-window.addEventListener('load', deployHeader());
+// window.addEventListener('load', deployHeader());

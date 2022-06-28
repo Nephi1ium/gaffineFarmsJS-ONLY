@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 function deployHeader (){
     const headerItem = 
 `
