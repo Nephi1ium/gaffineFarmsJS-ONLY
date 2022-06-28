@@ -31,10 +31,26 @@
 }
 
 .mainFooter {
-    border-bottom: 4px solid #231456;
+    border-top: 4px solid #231456;
     font-size: 2vmax;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    height: 10%;
-    width: 100%;
+width: 100%;
+height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "footerleft footercenter footerright";
+}
+
+.footerleft {
+    grid-area: footerleft;
+}
+
+.footercenter {
+    grid-area: footercenter;
+}
+
+.footerright {
+    grid-area: footerright;
 }

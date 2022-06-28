@@ -2,10 +2,12 @@
 function deployFooter (){
     const footerItem = 
 `
-<img class="mainPhoto" src="../src/images/gma and gpa sign.jpg">
-<footer class="mainfooter">
-<h2 class="title">Gaf-Fine Farms</h2>
-<h4 class="subtitle">Family owned and operated since 1904</h4>
+<footer class="mainFooter">
+<h4 id="aboutFooter" class="footerleft">About</h4>
+<h4 id="socialFooter" class="footercenter">Social</h4>
+<h4 id="storiesFooter" class="footerright">Stories</h4>
+
+
 </footer>`;
 document.getElementById("mainFooter").innerHTML = footerItem;
 
