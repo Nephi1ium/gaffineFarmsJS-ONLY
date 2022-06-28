@@ -54,3 +54,7 @@ height: auto;
 .footerright {
     grid-area: footerright;
 }
+
+.mainContent {
+    margin: 10px;
+}
