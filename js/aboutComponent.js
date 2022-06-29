@@ -1,6 +1,6 @@
 
-function deployMainBody (){
-    const mainBodyItem = 
+function deployAboutBody (){
+    const aboutBodyItem = 
 `
 <main id="mainContent" class="mainContent">
 <img class="photoOne" id="photoOne" src="../src/images/3gengaffnermen.jpg">
@@ -12,7 +12,7 @@ Donec eu iaculis orci, nec ornare diam. Vestibulum ante ipsum primis in faucibus
 
 Vestibulum commodo arcu nulla, sit amet pellentesque nibh facilisis ac. Vivamus condimentum pharetra augue eu pulvinar. Duis interdum orci augue, nec aliquet dui egestas eget. Morbi euismod lacinia tellus, vel tristique quam dictum non. Nam mi turpis, maximus nec est nec, consequat fermentum magna. Ut sagittis aliquam justo, quis suscipit nulla lacinia eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras quis sodales diam. Vestibulum nec consectetur massa.
 </p>
-<img id="photoTwo" class="photoTwo" src="../src/images/gaffner girls dutchesses.jpg">
+<img id="photoTwo" class="photoTwo" src="../src/images/jerry_gaffner.jpg">
 <p class="paragraph">
 Morbi quis mauris ornare, ornare neque ut, ornare mauris. Pellentesque id vestibulum lacus, sit amet aliquam nisi. Pellentesque luctus tellus eget tellus fringilla vulputate. Phasellus tincidunt augue mauris, vel blandit libero hendrerit a. Donec porttitor egestas fringilla. Vivamus vitae neque a purus tincidunt accumsan quis at sem. Duis elementum urna ex, quis vulputate dui ultrices in. Donec congue orci ipsum, in euismod risus varius a. Nam sed sem nisl. Aenean hendrerit nunc id magna consectetur eleifend. Nulla facilisi. Sed tincidunt id eros at cursus. Curabitur tempus non eros a ullamcorper. Nam auctor gravida enim, id feugiat lorem hendrerit quis.
 
@@ -24,12 +24,14 @@ German Gaffners found the black soil and humid climate a welcome change from the
 hailed from. Everyday since their descendents have made this agricultural endeavor into one to be 
 admired. 
 </p>
+<img id="photoThree" class="photoThree" src="../src/images/scott_gaffner.jpg">
+
 
 </main>
 `;
-document.getElementById("mainContent").innerHTML = mainBodyItem;
+document.getElementById("mainContent").innerHTML = aboutBodyItem;
 
 }
 
 
-export {deployMainBody};
+export {deployAboutBody};
