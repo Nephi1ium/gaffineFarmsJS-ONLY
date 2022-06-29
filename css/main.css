@@ -58,3 +58,29 @@ height: auto;
 .mainContent {
     margin: 10px;
 }
+
+
+
+#mainContent{
+    font-size: 2vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+#photoOne {
+float: left;
+}
+
+#photoTwo {
+    float: right;
+    max-width: 50%;
+    max-height: auto;
+}
+
+#paragraph {
+    text-align: justify;
+}
+
