@@ -3,7 +3,7 @@ import {deployFooter} from "./footerComponent.js";
 import {deployMainBody} from "./homeComponent.js";
 import {deployAboutBody} from "./aboutComponent.js";
 import {deployStoryBody} from "./storyComponent.js";
-
+import {deployGalleryBody} from "./galleryComponent.js";
 
 
 window.addEventListener('load', deployHeader());
@@ -30,6 +30,10 @@ const goStories = document.querySelector("#storiesButton");
 
 goStories.addEventListener("click", () => storiesNavigator());
 
+// Gallery Component Navigation
+const goGallery = document.querySelector("#galleryButton");
+
+goGallery.addEventListener("click", () => galleryNavigator());
 
 
 
@@ -51,5 +55,12 @@ function storiesNavigator(){
     deployHeader();
     deployFooter();
     deployStoryBody();
+
+}
+
+function galleryNavigator(){
+    deployHeader();
+    deployFooter();
+    deployGalleryBody();
 
 }
