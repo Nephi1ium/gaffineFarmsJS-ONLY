@@ -2,7 +2,6 @@
 function deployMainBody (){
     const mainBodyItem = 
 `
-<main id="mainContent" class="mainContent">
 <img class="photoOne" id="photoOne" src="../src/images/3gengaffnermen.jpg">
 <h2 id="Bodytitle" class="Bodytitle">It began in 1922...</h2>
 <p class="paragraph" id="mainParagraph">

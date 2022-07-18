@@ -35,7 +35,9 @@ const goGallery = document.querySelector("#galleryButton");
 
 goGallery.addEventListener("click", () => galleryNavigator());
 
-
+function clearMain(){
+    document.getElementById('mainContent').innerHTML = "";
+}
 
 function homeNavigator(){
     deployHeader();
@@ -59,6 +61,7 @@ function storiesNavigator(){
 }
 
 function galleryNavigator(){
+    clearMain();
     deployHeader();
     deployFooter();
     deployGalleryBody();

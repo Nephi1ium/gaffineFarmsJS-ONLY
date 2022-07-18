@@ -2,7 +2,6 @@
 function deployStoryBody (){
     const storyBodyItem = 
 `
-<main id="mainContent" class="mainContent">
 <img class="photoOne" id="photoOne" src="#">
 <h2 id="Bodytitle" class="Bodytitle">It began in 1922...</h2>
 <p class="paragraph" id="mainParagraph">

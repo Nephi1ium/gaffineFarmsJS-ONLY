@@ -8,6 +8,8 @@ function deployGalleryBody (){
     function showImages() {
     
         const galleryDisplay = document.getElementById('mainContent');
+
+        // document.getElementById('mainContent').innerHTML = "";
      
         for (let i = 0; i < imageGallery.length; i++) {
             const imageElement = document.createElement('img');
@@ -15,6 +17,7 @@ function deployGalleryBody (){
             imageElement.src = imageGallery[i];
             galleryDisplay.appendChild(imageElement);
         }
+
     }
      
     showImages();

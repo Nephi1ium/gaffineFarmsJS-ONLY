@@ -5,11 +5,30 @@
     text-align: center;
     height: 10%;
     width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: ". mainPhoto ."
+                        ". title ."
+                        ". subtitle .";
+}
+
+
+
+.title {
+    grid-area: title;
+}
+
+.subtitle {
+    grid-area: subtitle;
 }
 
 .mainPhoto{
     height: auto;
-    width: 100%;
+    width: fit-content;
+    align-items: center;
+    grid-area: mainPhoto;
 }
 
 .mainNavigation{
