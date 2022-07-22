@@ -1,3 +1,8 @@
+/* body {
+    margin 2px;
+
+} */
+
 .mainHeader {
     border-bottom: 4px solid #231456;
     font-size: 2vmax;
@@ -104,10 +109,17 @@ height: auto;
 
 #photoOne {
 float: left;
+max-width: 50%;
+max-height: auto;
 }
 
 #photoTwo {
     float: right;
+    max-width: 50%;
+    max-height: auto;
+}
+
+#photoThree {
     max-width: 50%;
     max-height: auto;
 }
@@ -142,12 +154,44 @@ float: left;
     height: 100%;
  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Below is to change properties based on viewport width of 450px */
+
 @media screen and (max-width: 450px) {
     .mainPhoto{
         max-width: 425px;
         width: 100%;
         height: auto;
-        margin: 5%;
+
 
     }
 
@@ -234,7 +278,7 @@ float: left;
         font-size: 2vmax;
     }
     .mainContent {
-        margin: 10px;
+        margin: .2vmax;
     }
     
     
@@ -249,14 +293,21 @@ float: left;
     }
     
     #photoOne {
-    float: left;
-    }
-    
-    #photoTwo {
-        float: right;
+        float: left;
         max-width: 50%;
         max-height: auto;
-    }
+        }
+        
+        #photoTwo {
+            float: right;
+            max-width: 50%;
+            max-height: auto;
+        }
+        
+        #photoThree {
+            max-width: 50%;
+            max-height: auto;
+        }
     
     #paragraph {
         text-align: justify;

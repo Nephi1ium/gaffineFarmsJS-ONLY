@@ -3,6 +3,7 @@ import {deployFooter} from "./footerComponent.js";
 import {deployMainBody} from "./homeComponent.js";
 import {deployAboutBody} from "./aboutComponent.js";
 import {deployStoryBody} from "./storyComponent.js";
+import {deployGalleryBody} from "./galleryComponent.js";
 import {deployCalendar} from "./calendarComponent.js";
 
 
@@ -32,8 +33,10 @@ goStories.addEventListener("click", () => storiesNavigator());
 
 // Gallery Component Navigation
 const goGallery = document.querySelector("#galleryButton");
+const goFootGallery = document.querySelector("#footGalleryButton");
 
 goGallery.addEventListener("click", () => galleryNavigator());
+goFootGallery.addEventListener("click", () => galleryNavigator());
 
 // Calendar Component Navigation
 const goCalendar = document.querySelector("#calendarButton");
@@ -48,36 +51,36 @@ function clearMain(){
 }
 
 function homeNavigator(){
-    deployHeader();
-    deployFooter();
+    clearMain();
+
     deployMainBody();
 
 }
 
 function aboutNavigator(){
-    deployHeader();
-    deployFooter();
+    clearMain();
+
     deployAboutBody();
 
 }
 
 function storiesNavigator(){
-    deployHeader();
-    deployFooter();
+    clearMain();
+
     deployStoryBody();
 
 }
 
 function galleryNavigator(){
     clearMain();
-    deployHeader();
-    deployFooter();
+
     deployGalleryBody();
 
 }
 
 function calendarNavigator(){
     clearMain();
+
     deployCalendar();
 
 }
