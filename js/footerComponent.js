@@ -4,8 +4,8 @@ function deployFooter (){
 `
 <footer class="mainFooter">
 <button id="footAboutButton" class="footerleft footerBut">About</button>
-<button href="" id="socialFooter" class="footercenter footerBut">Calendar</button>
-<button href="" id="storiesFooter" class="footerright footerBut">Gallery</button>
+<button id="calendarButton" class="footercenter footerBut">Calendar</button>
+<button id="storiesFooter" class="footerright footerBut">Gallery</button>
 </footer>`;
 document.getElementById("mainFooter").innerHTML = footerItem;
 

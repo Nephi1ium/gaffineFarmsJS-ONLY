@@ -3,7 +3,7 @@ import {deployFooter} from "./footerComponent.js";
 import {deployMainBody} from "./homeComponent.js";
 import {deployAboutBody} from "./aboutComponent.js";
 import {deployStoryBody} from "./storyComponent.js";
-import {deployGalleryBody} from "./galleryComponent.js";
+import {deployCalendar} from "./calendarComponent.js";
 
 
 window.addEventListener('load', deployHeader());
@@ -35,6 +35,14 @@ const goGallery = document.querySelector("#galleryButton");
 
 goGallery.addEventListener("click", () => galleryNavigator());
 
+// Calendar Component Navigation
+const goCalendar = document.querySelector("#calendarButton");
+
+goCalendar.addEventListener("click", () => calendarNavigator());
+
+
+
+
 function clearMain(){
     document.getElementById('mainContent').innerHTML = "";
 }
@@ -65,5 +73,11 @@ function galleryNavigator(){
     deployHeader();
     deployFooter();
     deployGalleryBody();
+
+}
+
+function calendarNavigator(){
+    clearMain();
+    deployCalendar();
 
 }
