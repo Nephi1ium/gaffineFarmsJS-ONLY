@@ -157,7 +157,11 @@ max-height: auto;
     height: 100%;
  }
 
-
+.mainVideo{
+    width: 80%;
+    height: auto;
+    
+}
 
 
 

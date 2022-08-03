@@ -3,7 +3,7 @@ const stories = [
     
     '../src/stories/Lorem Ipsum English.docx', 
 
-    '../src/stories/Lorem Ipsum Hvarti.docx', 
+    '../src/stories/Lorem Ipsum Hvarti.txt', 
 ];
 
 
