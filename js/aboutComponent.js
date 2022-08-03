@@ -7,9 +7,8 @@ function deployAboutBody (){
 
 
 <h2 id="Bodytitle" class="Bodytitle">It began in 1922...</h2>
-<video class="mainVideo" controls autoplay>
-  <source src="https://video-downloads.googleusercontent.com/AJ1zp9NZiZgM5CeJmfZ-0866jv-sc7a_8lIyJqlUAPZOyGdqjkhSFpR8UPVFen5yYRacoZSYZdKF47aLZjt1qI-hVxmsZm_DAWqwHGD2ebI1tBxj0MR1X90-Qm9P2pQICdjL9gXBsX-q6N2lZevtwBojFEiT4U73C9LJXBiIDQ4FLfwczbq1YCtBWOdvnXEay2aJ7MzY2o77qzVq7y9mT6ssOa21HXc1DoIaCqZJprXB1HB9AxUJZBCklcPllzXFBFUPEJGsxZVVjuq06ph3JvyPNFsDpNfWyzvlZ7RIiBYoCnr3-j69o3QbeD4s_IziakEXvbQ4yi-qACRHDWA5MvdTUBgqeAYDzcxOeNwIbe-k3PWGuB21PrHDTRKukcoU0yUbJXTg1RWA1Fhqy7IsyqnQ6mgslRflSBkjHNdZy8FcpwsoRCOwb-r67VG3sEn5znpMuUn62lhfkIiV9E5vabc4Wv-gaOeppuLTKkFLpx0ZnjgunbFZfAx3S3TH4pdFT1mtcDCJzDJJ5xHzgwJDm8N6hH3wUrtm9CKVDoE_CTMpc57wWo83Fmbd2cTUhxBzbLgS93vScfyQLVtEWT70jLzpSlRZFps5mu-klOLJ06HcjPOB1JLlalJKpY9fUXPpzeLREg_MSnhVnLTNclDxfTk_QKUF0j0vX1_1HqNLW63LN5ou2MpjaML9O2VqkTi-3xUi-uZxiowiEMQgzBdV_w8O_sh4gfATBlQW6cCiLKII9Vv8EPUcJItB7YeLPJl4JaYLau1IH8WDF-GPld2CVpcs_kviPycobu32737fikU3oGtI3C2yV1GVH2qs8X2XsmDVHyPiK7h9Xl9BslSIzEVNZsg-LB4qM-0iE9f0C1QzruJslM7l8B4M8Co-tLWmx4Kmlm9cAsNtqP1BtyRhdd03D_6Z4ssE1Q?authuser=0" type="video/mp4">
-  </video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RJRP642lg8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <p class="paragraph" id="mainParagraph">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere, ante eu porttitor consectetur, nisi metus scelerisque elit, ac sodales massa odio id lacus. Donec euismod tincidunt enim, ac hendrerit purus accumsan in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse ut placerat leo. Praesent lacinia ullamcorper tellus et venenatis. Phasellus pharetra turpis at ex aliquam placerat. Sed aliquam dignissim lectus vitae ultrices.
 
