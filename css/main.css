@@ -168,7 +168,7 @@ grid-area: photoOne;
 
 /* Alignment of the About Page */
 
-#aboutPageContent{
+/* #aboutPageContent{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -183,17 +183,21 @@ grid-area: photoOne;
 
 #bodyTitle{
     grid-area: bodyTitle;
-}
+ } */
 #droneVideo{
-    grid-area: droneVideo;
+    display: block;
 }
+/* 
 #aboutParagraph{
     grid-area: aboutParagraph;
-}
+} */
 .mobileNavigationBut{
     display: none;
 }
 .hamButton{
+    display: none;
+}
+#droneVideoMobile{
     display: none;
 }
 
@@ -229,11 +233,19 @@ grid-area: photoOne;
 @media screen and (max-width: 450px) {
     .mainPhoto{
         max-width: 425px;
-        width: 100%;
+        width: 90%;
         height: auto;
         margin: 2%;
 
 
+    }
+
+    #droneVideoMobile{
+        display: block;
+    }
+
+    #droneVideo{
+        display: none;
     }
 
     .mainHeader {

@@ -15,35 +15,48 @@ window.addEventListener('load', deployNavigator());
 
 // Home Component Navigation
 const goHome = document.querySelector("#homeButton");
+const goHomeMobile = document.querySelector("#homeButtonMobile");
 
 goHome.addEventListener("click", () => homeNavigator());
+goHomeMobile.addEventListener("click", () => homeNavigator());
 
 
 
 // About Component Navigation
 const goAbout = document.querySelector("#aboutButton");
+const goAboutMobile = document.querySelector("#aboutButtonMobile");
 const goFootAbout = document.querySelector("#footAboutButton");
 
 goAbout.addEventListener("click", () => aboutNavigator());
+goAboutMobile.addEventListener("click", () => aboutNavigator());
 goFootAbout.addEventListener("click", () => aboutNavigator());
 
 
 // Stories Component Navigation
 const goStories = document.querySelector("#storiesButton");
+const goStoriesMobile = document.querySelector("#storiesButtonMobile");
 
 goStories.addEventListener("click", () => storiesNavigator());
+goStoriesMobile.addEventListener("click", () => storiesNavigator());
 
 // Gallery Component Navigation
 const goGallery = document.querySelector("#galleryButton");
+const goGalleryMobile = document.querySelector("#galleryButtonMobile");
 const goFootGallery = document.querySelector("#footGalleryButton");
 
 goGallery.addEventListener("click", () => galleryNavigator());
+goGalleryMobile.addEventListener("click", () => galleryNavigator());
 goFootGallery.addEventListener("click", () => galleryNavigator());
 
 // Calendar Component Navigation
 const goCalendar = document.querySelector("#calendarButton");
+const gofootCalendar = document.querySelector("#footCalendarButton");
+const goCalendarMobile = document.querySelector("#calendarButtonMobile");
+
 
 goCalendar.addEventListener("click", () => calendarNavigator());
+gofootCalendar.addEventListener("click", () => calendarNavigator());
+goCalendarMobile.addEventListener("click", () => calendarNavigator());
 
 
 
