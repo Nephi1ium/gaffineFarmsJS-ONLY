@@ -44,11 +44,13 @@
             const showAbout = document.getElementById("aboutButtonMobile");
             const showstories = document.getElementById("storiesButtonMobile");
             const showGallery = document.getElementById("galleryButtonMobile");
+            const showCalendar = document.getElementById("calendarButtonMobile");
 
             showHome.classList.toggle('showMobNavItems');
             showAbout.classList.toggle('showMobNavItems');
             showstories.classList.toggle('showMobNavItems');
             showGallery.classList.toggle('showMobNavItems');
+            showCalendar.classList.toggle('showMobNavItems');
 
             console.log("Good Try!");
         }
