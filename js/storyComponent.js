@@ -8,8 +8,8 @@ function deployStoryBody (){
          content.innerHTML = content.innerHTML +
          `
          <h3> ${story}   </h3>
-         <button class="expandButton" onClick="toggleProgram(event)">+</button>
-         <object class="fileViewer"data="${story}" type="application/pdf" width="500px" height="600px"> </object>
+         <button class="expandButton" onClick="toggleProgram()">+</button>
+         <object class="fileViewer"data="${story}" type="application/pdf"> </object>
         
         `;
         console.log("name of file", story);

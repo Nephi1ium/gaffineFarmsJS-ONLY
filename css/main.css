@@ -203,6 +203,10 @@ grid-area: photoOne;
 .fileViewer{
     display: none;
 }
+
+
+
+/* Container for the CSS for the story display section in a regular viewport*/
 .expandButton{
     display:block;
     text-align: left;
@@ -445,4 +449,15 @@ grid-area: photoOne;
         opacity: 0.3;
     }
      */
+
+     /* Container for the CSS for the story display section in mobile */
+.expandButton{
+    display:block;
+    text-align: left;
+    padding: 1vmax;
+    margin: 4vmax;
+    max-width: 10vmax;
+    width: 8vmax;
+    height: auto;
+}
 }
