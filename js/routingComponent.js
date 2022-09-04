@@ -6,12 +6,13 @@ import {deployStoryBody} from "./storyComponent.js";
 import {deployGalleryBody} from "./galleryComponent.js";
 import {deployCalendar} from "./calendarComponent.js";
 import {deployNavigator} from "./navigatorComponent.js";
-
+// import {toggleProgram} from "./toggleComponent.js";
 
 window.addEventListener('load', deployHeader());
 window.addEventListener('load', deployFooter());
 window.addEventListener('load', deployMainBody());
 window.addEventListener('load', deployNavigator());
+// document.addEventListener("DOMContentLoaded", () => toggleProgram());
 
 // Home Component Navigation
 const goHome = document.querySelector("#homeButton");
@@ -35,9 +36,11 @@ goFootAbout.addEventListener("click", () => aboutNavigator());
 // Stories Component Navigation
 const goStories = document.querySelector("#storiesButton");
 const goStoriesMobile = document.querySelector("#storiesButtonMobile");
+// const expandStories = document.querySelector("#expandButton");
 
 goStories.addEventListener("click", () => storiesNavigator());
 goStoriesMobile.addEventListener("click", () => storiesNavigator());
+// expandStories.addEventListener("click", () => toggleProgram());
 
 // Gallery Component Navigation
 const goGallery = document.querySelector("#galleryButton");
@@ -67,7 +70,7 @@ function clearMain(){
 
 function homeNavigator(){
     clearMain();
-    deployNavigator();
+    // deployNavigator();
     deployMainBody();
 
 }
@@ -83,6 +86,8 @@ function storiesNavigator(){
     clearMain();
 
     deployStoryBody();
+
+
 
 }
 
