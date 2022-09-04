@@ -9,7 +9,7 @@
                     <button class="mainNavigationBut" id="aboutButton">About</button>
                     <button class="mainNavigationBut" id="storiesButton">Stories</button>
                     <button class="mainNavigationBut" id="galleryButton">Gallery</button>
-                    <button class="mainNavigationBut" id="calendarButton">Gallery</button>
+                    <button class="mainNavigationBut" id="calendarButton">Calendar</button>
 
                 </nav>
 
@@ -21,7 +21,7 @@
                     <button class="mobileNavigationBut" id="aboutButtonMobile">About</button>
                     <button class="mobileNavigationBut" id="storiesButtonMobile">Stories</button>
                     <button class="mobileNavigationBut " id="galleryButtonMobile">Gallery</button>
-                    <button class="mobileNavigationBut " id="calendarButtonMobile">Gallery</button>
+                    <button class="mobileNavigationBut " id="calendarButtonMobile">Calendar</button>
 
                 </nav>
             </nav>`;

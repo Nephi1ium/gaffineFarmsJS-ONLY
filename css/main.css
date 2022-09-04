@@ -200,7 +200,15 @@ grid-area: photoOne;
 #droneVideoMobile{
     display: none;
 }
-
+.fileViewer{
+    display: none;
+}
+.expandButton{
+    display:block;
+    text-align: left;
+    padding: 1vmax;
+    margin: 4vmax;
+}
 
 
 
