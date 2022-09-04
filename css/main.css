@@ -212,7 +212,24 @@ grid-area: photoOne;
     text-align: left;
     padding: 1vmax;
     margin: 4vmax;
+    border-radius: .5xmax;
 
+}
+
+.pdfDownloadButton{
+    text-decoration: none;
+    color: black;
+    display:block;
+    text-align: left;
+    padding: 1vmax;
+    margin: 4vmax;
+    background-color: grey;
+    width: 10vmax;
+    font-size: 2vmax;
+    text-align: center;
+    border: .2vmax solid grey;
+    border-radius: .5vmax;
+    
 }
 
 .pdfShow{

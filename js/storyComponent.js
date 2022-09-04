@@ -11,7 +11,7 @@ function deployStoryBody (){
          <h5>${story.description}</h5>
          <button class="expandButton" onClick="toggleProgram()">+</button>
          <div class="fileViewer">
-            <a class="" download="${story.link}" target="_blank" onClick="toggleProgram()" href="${story.link}">Download</a>
+            <a class="pdfDownloadButton" download="${story.link}" target="_blank" onClick="toggleProgram()" href="${story.link}">Download</a>
             <object class="pdfShow"data="${story.link}" type="application/pdf"> </object>
          </div>
         
