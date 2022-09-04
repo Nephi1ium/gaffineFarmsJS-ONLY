@@ -212,6 +212,13 @@ grid-area: photoOne;
     text-align: left;
     padding: 1vmax;
     margin: 4vmax;
+
+}
+
+.pdfShow{
+
+    width: 50vmax;
+    height: 25vmax;
 }
 
 

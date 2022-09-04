@@ -7,9 +7,13 @@ function deployStoryBody (){
  stories.forEach(story => {    
          content.innerHTML = content.innerHTML +
          `
-         <h3> ${story}   </h3>
+         <h3> ${story.name}   </h3>
+         <h5>${story.description}</h5>
          <button class="expandButton" onClick="toggleProgram()">+</button>
-         <object class="fileViewer"data="${story}" type="application/pdf"> </object>
+         <div class="fileViewer">
+            <a class="" download="${story.link}" target="_blank" onClick="toggleProgram()" href="${story.link}">Download</a>
+            <object class="pdfShow"data="${story.link}" type="application/pdf"> </object>
+         </div>
         
         `;
         console.log("name of file", story);
