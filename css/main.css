@@ -3,6 +3,12 @@
 
 } */
 
+
+.fullSizeNav{
+background-color: bisque;
+}
+
+
 .mainHeader {
     border-bottom: 4px solid #231456;
     font-size: 2vmax;
@@ -40,11 +46,9 @@
 
 .mainNavigation{
     width:100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+
     text-align: center;
+    position: fixed;
 }
 
 .img {
@@ -53,15 +57,60 @@
     margin: 2%;
 }
 
-.mainNavigation .mainNavigationBut {
-    background-color: black; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
+.mainNavigationBut {
+    background-color: bisque; /* Green */
+    /* border-radius: .5vmax; */
+    border: solid bisque .1vmax;
+    color: black;
     text-align: center;
+    margin: 0 auto;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1vmax;
+    width: 10vmax;
+    height: 3vmax;
+    /* text-shadow:
+    -2px   -2px #ff1a1a,
+    -2px -1.5px #ff1a1a,
+    -2px   -1px #ff1a1a,
+    -2px -0.5px #ff1a1a,
+    -2px    0px #ff1a1a,
+    -2px  0.5px #ff1a1a,
+    -2px    1px #ff1a1a,
+    -2px  1.5px #ff1a1a,
+    -2px    2px #ff1a1a,
+    -1.5px  2px #ff1a1a,
+    -1px    2px #ff1a1a,
+    -0.5px  2px #ff1a1a,
+    0px     2px #ff1a1a,
+    0.5px   2px #ff1a1a,
+    1px     2px #ff1a1a,
+    1.5px   2px #ff1a1a,
+    2px     2px #ff1a1a,
+    2px   1.5px #ff1a1a,
+    2px     1px #ff1a1a,
+    2px   0.5px #ff1a1a,
+    2px     0px #ff1a1a,
+    2px  -0.5px #ff1a1a,
+    2px    -1px #ff1a1a,
+    2px  -1.5px #ff1a1a,
+    2px    -2px #ff1a1a,
+    1.5px  -2px #ff1a1a,
+    1px    -2px #ff1a1a,
+    0.5px  -2px #ff1a1a,
+    0px    -2px #ff1a1a,
+    -0.5px -2px #ff1a1a,
+    -1px   -2px #ff1a1a,
+    -1.5px -2px #ff1a1a; */
+    /* text-shadow: 
+    -1px -1px 0px #ff1a1a,
+     0px -1px 0px #ff1a1a,
+     1px -1px 0px #ff1a1a,
+    -1px  0px 0px #ff1a1a,
+     1px  0px 0px #ff1a1a,
+    -1px  1px 0px #ff1a1a,
+     0px  1px 0px #ff1a1a,
+     1px  1px 0px #ff1a1a; */
 }
 
 .mainFooter {
@@ -314,8 +363,8 @@ grid-area: photoOne;
     
     .mainNavigation{
         width:100%;
-        padding: 2%;
-        margin: 4px 6px;
+        /* padding: 2%; */
+        /* margin: 4px 6px; */
         text-align: center;
     }
     
@@ -421,6 +470,12 @@ grid-area: photoOne;
         "aboutButtonMobile"
         "storiesButtonMobile"
         "galleryButtonMobile";
+        background-color: #ff1a1a;
+
+    }
+
+    .allNav{
+        position: fixed;
     }
 
     #homeButtonMobile{
