@@ -48,7 +48,7 @@ background-color: bisque;
     width:100%;
 
     text-align: center;
-    position: fixed;
+    position: relative;
 }
 
 .img {
@@ -366,6 +366,7 @@ grid-area: photoOne;
         /* padding: 2%; */
         /* margin: 4px 6px; */
         text-align: center;
+        position: relative;
     }
     
     .img {
@@ -381,7 +382,6 @@ grid-area: photoOne;
         text-align: center;
         text-decoration: none;
         display: none;
-        font-size: 16px;
 
     }
     
@@ -470,7 +470,8 @@ grid-area: photoOne;
         "aboutButtonMobile"
         "storiesButtonMobile"
         "galleryButtonMobile";
-        background-color: #ff1a1a;
+        width: 51.5vmax;
+        margin-bottom: 1vmax;
 
     }
 
@@ -501,6 +502,10 @@ grid-area: photoOne;
         right: 1vmax;
         background-color: transparent; 
         border: none;
+    }
+    .mobileNavigationBut{
+        font-size: 4vmax;
+        color:burlywood;
     }
     .hamButton{
         background-image: url(../src/images/icons/icons8-menu-30.png);
