@@ -39,7 +39,6 @@ background-color: bisque;
 
 .mainPhoto{
     height: auto;
-    width: fit-content;
     align-items: center;
     grid-area: mainPhoto;
 }
@@ -215,6 +214,15 @@ grid-area: photoOne;
 
 }
 
+.mainNavigation{
+    width:100%;
+    /* padding: 2%; */
+    /* margin: 4px 6px; */
+    text-align: center;
+    position: relative;
+    height: 4vmax;
+}
+
 /* Alignment of the About Page */
 
 /* #aboutPageContent{
@@ -318,7 +326,7 @@ grid-area: photoOne;
 @media screen and (max-width: 450px) {
     .mainPhoto{
         max-width: 425px;
-        width: 90%;
+        width: 95%;
         height: auto;
         margin: 2%;
 
@@ -367,6 +375,7 @@ grid-area: photoOne;
         /* margin: 4px 6px; */
         text-align: center;
         position: relative;
+
     }
     
     .img {
