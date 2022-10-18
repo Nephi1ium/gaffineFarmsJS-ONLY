@@ -38,9 +38,12 @@ background-color: bisque;
 }
 
 .mainPhoto{
-    height: auto;
+    margin-top: 1.5vmax;
     align-items: center;
     grid-area: mainPhoto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mainNavigation{
@@ -220,7 +223,6 @@ grid-area: photoOne;
     /* margin: 4px 6px; */
     text-align: center;
     position: relative;
-    height: 4vmax;
 }
 
 /* Alignment of the About Page */
@@ -295,6 +297,12 @@ grid-area: photoOne;
     height: 25vmax;
 }
 
+.carousel_image{
+    max-width: 30vmax;
+    width: auto;
+    height: 20vmax;
+}
+
 
 
 
@@ -325,11 +333,9 @@ grid-area: photoOne;
 
 @media screen and (max-width: 450px) {
     .mainPhoto{
-        max-width: 425px;
-        width: 95%;
-        height: auto;
         margin: 2%;
-
+        height: 15vmax;
+        width:auto;
 
     }
 
@@ -473,6 +479,7 @@ grid-area: photoOne;
     } */
     .mobileNav{
         display: block;
+        position: fixed;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas: "homeButtonMobile"
